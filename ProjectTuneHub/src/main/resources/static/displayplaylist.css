@@ -1,0 +1,70 @@
+body {
+	background-image:url("/images/displaylist1.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	/*background: linear-gradient(90deg, #F1CA74, #A64DB6);*/
+}
+
+.displayplaylists {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: transparent;
+	border-radius: 15px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+.displayplaylists h2, .displayplaylists p {
+	text-align: center;
+	color: white;
+}
+
+.displayplaylists .table {
+	margin-top: 20px;
+	overflow-x: auto; /* Add horizontal scroll if needed */
+	margin-bottom: 20px;
+	border-color: #fff;
+}
+
+.displayplaylists table {
+	width: calc(100% - 20px); /* 100% width minus 20px for the scrollbar */
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid #fff;
+}
+
+.displayplaylists th, .displayplaylists td {
+	color: white; 
+	border : 1px solid #fff;
+	padding: 8px;
+	border: 1px solid #fff;
+}
+
+.displayplaylists th {
+	background-color: transparent;
+	color: #fff;
+}
+
+.displayplaylists tr:nth-child(even) {
+	background-color: transparent;
+	color: white;
+}
+
+.displayplaylists audio {
+	margin-top: 5px;
+}
+
+a {
+	color: blue;
+	font-weight: bold;
+}
+
+.link {
+	font-size: 18px;
+}

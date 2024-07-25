@@ -1,0 +1,48 @@
+body {
+	background-image:url("/images/pay.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background: linear-gradient(180deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);*/
+    color: white;
+    min-height: 92vh;
+}
+
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    background-color:#833ab4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+	font-weight: bold;
+    background-color: #fd1d1d;
+}

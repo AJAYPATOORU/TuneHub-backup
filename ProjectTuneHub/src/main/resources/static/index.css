@@ -1,0 +1,127 @@
+
+body {
+	background-image:url("/images/indexalbum.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to the full viewport height */
+  /*  background-color: #00DBDE;*/
+   /* background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 1.4);
+    color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+.left{
+	display: flex;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: threedhighlight;
+    border-width: 2px;
+   
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#c7c045;
+    align-items: center;
+}
+
+p{
+	font-family: 'Courier New', Courier; /* Another font family */
+    font-size: 1.2em; /* Font size */
+    font-weight: bold; /* Normal weight */
+    font-style: italic; /* Normal style */
+    text-decoration: none; /* No decoration */
+    
+}
+
+.signin,
+.signup {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    border-radius: 30px;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.signin:active,
+.signup:active {
+    opacity: 0.2;
+}
+
+.indexdiv {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexdiv h1{
+	 font-family: 'Georgia', serif; /* Custom font family */
+    font-size: 2em; /* Font size */
+    font-weight: bold; /* Bold text */
+    font-style: italic; /* Italic text */
+    text-decoration: underline; /* Underlined text */
+}
+
+.login1,.register1{
+	color: white;
+	font-weight: bold;
+}
+
+.login,
+.register {
+    border: solid;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.login:hover,
+.register:hover {
+    background-color: white;
+    color: black;
+}
